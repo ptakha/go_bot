@@ -1,6 +1,5 @@
 /*
 Copyright © 2026 NAME HERE <EMAIL ADDRESS>
-
 */
 package cmd
 
@@ -9,15 +8,15 @@ import (
 
 	"github.com/spf13/cobra"
 )
-var appVersion="Version"
+
+var appVersion = "Version"
+
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
 	Short: "Show app version",
-	Long: `Show app version`,
+	Long:  `Show app version`,
 
-    
-    
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println(appVersion)
 	},
