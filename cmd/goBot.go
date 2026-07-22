@@ -14,7 +14,7 @@ import (
 )
 
 var (
-	token = os.Getenv("token")
+	token = os.Getenv("TELE_TOKEN")
 )
 
 // goBotCmd represents the goBot command
